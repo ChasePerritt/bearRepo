@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Name: Chase Perritt
+ * Date: 5 February 2020
+ * File: Bear.cs
+ * Description: This is the file containing the Bear interface and all associated classes with their implementations.
+ */
 namespace bearAdapter
 {
     interface Bear
