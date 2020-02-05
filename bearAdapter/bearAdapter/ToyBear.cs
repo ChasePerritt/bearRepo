@@ -14,7 +14,7 @@ namespace bearAdapter
     {
         public void hug()
         {
-            return;
+            Console.WriteLine("*squeak*");
         }
     }
 }

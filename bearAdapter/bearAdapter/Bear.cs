@@ -15,11 +15,11 @@ namespace bearAdapter
     {
         public void maul()
         {
-            return;
+            Console.WriteLine("*rrRARGH*");
         }
         public void hibernate()
         {
-            return;
+            Console.WriteLine("*zzzZzZz*");
         }
     }
 }

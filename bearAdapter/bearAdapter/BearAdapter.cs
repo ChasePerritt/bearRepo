@@ -16,7 +16,7 @@ namespace bearAdapter
         }
         public void hug()
         {
-            return;
+            adaptBear.maul();
         }
     }
 }
