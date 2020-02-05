@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace bearAdapter
 {
-    class BearAdapter
+    class BearAdapter : ToyBear
     {
+        public Bear adaptBear;
+
+        public BearAdapter(Bear b)
+        {
+            adaptBear = b;
+        }
+        public void hug()
+        {
+            return;
+        }
     }
 }

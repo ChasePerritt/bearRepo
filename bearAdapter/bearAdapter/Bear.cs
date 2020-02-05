@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace bearAdapter
 {
-    class Bear
+    interface Bear
     {
+        void maul();
+        void hibernate();
+    }
+    class Grizzly : Bear
+    {
+        public void maul()
+        {
+            return;
+        }
+        public void hibernate()
+        {
+            return;
+        }
     }
 }
